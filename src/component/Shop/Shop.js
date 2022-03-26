@@ -16,7 +16,7 @@ const Shop = () => {
         const selectedId = movies.find(movie => movie.id === id)
 
         const exists = cart.find(existingMovie => existingMovie.id === selectedId.id)
-        if (!exists) {
+        if (!exists && cart.length < 4) {
             const newCart = [...cart, selectedId]
             setCart(newCart);
         }
