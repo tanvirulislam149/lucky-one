@@ -6,6 +6,7 @@ import "./Shop.css"
 const Shop = () => {
     const [movies, setMovies] = useState([])
     const [cart, setCart] = useState([])
+    const [randomMovie, setRandomMovie] = useState([]);
     useEffect(() => {
         fetch("data.json")
             .then(res => res.json())
@@ -20,9 +21,23 @@ const Shop = () => {
             setCart(newCart);
         }
     }
+    const choose1 = () => {
+        if (cart.length) {
+            let number = parseInt(Math.random() * 10);
+            if (number < cart.length) {
+                const choosenMovie = cart[number];
+                setRandomMovie(choosenMovie);
+            }
+            else {
+                choose1();
+            }
+        }
+    }
     const reset = () => {
         const emptyCart = [];
         setCart(emptyCart)
+        const emptyRandomMovie = [];
+        setRandomMovie(emptyRandomMovie)
     }
     return (
         <div className='mx-2 mx-sm-5'>
@@ -40,7 +55,12 @@ const Shop = () => {
                 </div>
                 <div className='col-4'>
                     <div className='cart'>
-                        <Cart cart={cart} reset={reset}></Cart>
+                        <Cart
+                            cart={cart}
+                            reset={reset}
+                            choose={choose1}
+                            randomMovie={randomMovie}
+                        ></Cart>
                     </div>
                 </div>
             </div>
