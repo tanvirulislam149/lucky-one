@@ -1,0 +1,72 @@
+[
+    {
+        "id": "623de8aa3d77a09b61ea0a3f",
+        "index": 0,
+        "picture": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX1000_.jpg",
+        "price": 222,
+        "name": "Spiderman"
+    },
+    {
+        "id": "623de8aa325fe25b20f0bf9e",
+        "index": 1,
+        "picture": "https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "price": 233,
+        "name": "Spiderman 2"
+    },
+    {
+        "id": "623de8aa86534aa757cd7a6a",
+        "index": 2,
+        "picture": "https://static3.srcdn.com/wordpress/wp-content/uploads/2019/06/7-7.jpg?q=50&fit=crop&w=740&h=1100&dpr=1.5",
+        "price": 211,
+        "name": "Spiderman 3"
+    },
+    {
+        "id": "623de8aa88a207832e958b45",
+        "index": 3,
+        "picture": "https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_.jpg",
+        "price": 277,
+        "name": "The Amazing Spiderman"
+    },
+    {
+        "id": "623de8aa291072f10b4236ca",
+        "index": 4,
+        "picture": "https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTg0OV5BMl5BanBnXkFtZTgwODE5NzU1MTE@._V1_.jpg",
+        "price": 200,
+        "name": "The Amazing Spiderman 2"
+    },
+    {
+        "id": "623de8aa291072f10b4236cb",
+        "index": 4,
+        "picture": "https://m.media-amazon.com/images/M/MV5BOGQ5YTM3YzctOTVmMC00OGIyLWFkZTYtMWYwOWZhMjA2MWMwXkEyXkFqcGdeQXVyMjUyMTE5MA@@._V1_FMjpg_UX1000_.jpg",
+        "price": 205,
+        "name": "Spiderman-Homecomming"
+    },
+    {
+        "id": "623de8aa291072f10b4236cd",
+        "index": 4,
+        "picture": "https://m.media-amazon.com/images/M/MV5BMGZlNTY1ZWUtYTMzNC00ZjUyLWE0MjQtMTMxN2E3ODYxMWVmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+        "price": 217,
+        "name": "Spiderman-Far From Home"
+    },
+    {
+        "id": "623de8aa291072f10b4236ce",
+        "index": 4,
+        "picture": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg",
+        "price": 234,
+        "name": "Spiderman-No Way Home"
+    },
+    {
+        "id": "623de8aa291072f10b4236cf",
+        "index": 4,
+        "picture": "https://m.media-amazon.com/images/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_.jpg",
+        "price": 273,
+        "name": "Spiderman-Into The Spider Verse"
+    },
+    {
+        "id": "623de8aa291072f10b4236cg",
+        "index": 4,
+        "picture": "https://m.media-amazon.com/images/M/MV5BZGRhNDE1YjYtOGUzMC00YjliLThiOTgtYTkwNmQwNDZjYjFhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+        "price": "--",
+        "name": "Spiderman-Across The Spider Verse"
+    }
+]
