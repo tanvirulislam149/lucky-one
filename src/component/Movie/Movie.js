@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import "./Movie.css"
 
@@ -13,7 +15,7 @@ const Movie = (props) => {
                         <p className='fs-bold'>Price: ${movie.price}</p>
                     </div>
                     <div className="card-footer">
-                        <button className='btn btn-danger fw-bold w-100'>Add To Cart</button>
+                        <button className='btn btn-danger fw-bold w-100'>Add To Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
                     </div>
                 </div>
             </div>
