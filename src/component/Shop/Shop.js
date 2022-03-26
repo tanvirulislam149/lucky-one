@@ -42,7 +42,7 @@ const Shop = () => {
     return (
         <div className='mx-2 mx-sm-5'>
             <div className='row'>
-                <div className='col-8'>
+                <div className='col-7 col-sm-8'>
                     <div className='row row-cols-1 row-cols-md-3 g-4'>
                         {
                             movies.map(movie => <Movie
@@ -53,7 +53,7 @@ const Shop = () => {
                         }
                     </div>
                 </div>
-                <div className='col-4'>
+                <div className='col-5 col-sm-4'>
                     <div className='cart'>
                         <Cart
                             cart={cart}

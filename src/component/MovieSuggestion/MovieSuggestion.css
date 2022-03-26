@@ -4,3 +4,9 @@
     margin-right: 30px;
     border-radius: 10px;
 }
+@media screen and (max-width: 576px) {
+    .suggestion{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

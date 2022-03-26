@@ -8,7 +8,7 @@ const Movie = (props) => {
     return (
         <div className="">
             <div className="col movie">
-                <div className="card h-100 mx-4 mx-sm-0">
+                <div className="card h-100">
                     <img src={movie.picture} className="card-img-top poster" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{movie.name}</h5>
