@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import MovieSuggestion from '../MovieSuggestion/MovieSuggestion';
 
 const Cart = (props) => {
@@ -11,7 +10,7 @@ const Cart = (props) => {
             }
             <button className='btn btn-danger fw-bold mb-2'>Choose 1 for me</button>
             <br />
-            <button className='btn btn-success fw-bold'>Reset </button>
+            <button onClick={props.reset} className='btn btn-success fw-bold'>Reset </button>
         </div>
     );
 };

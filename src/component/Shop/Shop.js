@@ -20,6 +20,10 @@ const Shop = () => {
             setCart(newCart);
         }
     }
+    const reset = () => {
+        const emptyCart = [];
+        setCart(emptyCart)
+    }
     return (
         <div className='mx-2 mx-sm-5'>
             <div className='row'>
@@ -36,7 +40,7 @@ const Shop = () => {
                 </div>
                 <div className='col-4'>
                     <div className='cart'>
-                        <Cart cart={cart}></Cart>
+                        <Cart cart={cart} reset={reset}></Cart>
                     </div>
                 </div>
             </div>
